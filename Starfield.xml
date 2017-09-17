@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PACKAGE>
+<INCLUDESCRIPT ScriptFileName="Javascript/Starfield.js"/>
+<LIST id="SIZE">
+    <VALUE id="1x1" label="1x1" />
+    <VALUE id="2x1" label="2x1" />
+    <VALUE id="ALL" label="Full Size" />
+  </LIST>
+  
+  <MENU id="CorpDialog" Type="NotGlobal" Colspan="2">
+    <LAYER>
+      <ROWS>
+        <COLUMN Val="Widget Size" Align="Right" Fmt="@" Class="PULabel" />
+        <COLUMN Val="[LIST:SIZE]" Align="Left" Fmt="@" />
+      </ROWS>
+      <ROWS>
+        <COLUMN Val="Custom Label" Align="Right" Fmt="@" Class="PULabel" />
+        <COLUMN Formula="Array(Def(`ReportName`))" Type="MenuInput" id="ReportName" Width="15" Align="Left" Fmt="@" Class="F12" />
+      </ROWS>
+    </LAYER>
+  </MENU>
+ 
+   <OptionsButton id="CorpButton" name="CorpDialog" /> 
+ <REPORT>
+	<SECTION>
+    <HEADER>
+      <LAYER Class="HD1">
+        <ROWS id="L" Class="HD1">
+          <VAR id="DialogId" Formula="`CorpDialog1`" />
+          <COLUMN Val="[OptionsButton:CorpButton] [Lock] [DEF:ReportName]" Fmt="@" Colspan="2"/>
+        </ROWS>
+      </LAYER>
+    </HEADER>
+    <LAYER>
+      <ROWS>
+        <COLUMN Formula="Array(`&lt;div class='fullScreen`&amp;Def(`DashContentId`)&amp;`' id='fullScreen`&amp;Def(`DashContentId`)&amp;`' style='width:200px; height: 200px' &gt; &lt;canvas id='canvas2d`&amp;Def(`DashContentId`)&amp;`' &gt; &lt;/canvas&gt; &lt;/div&gt;`)" Align="Center" />
+      </ROWS>
+	  <ROWS>
+		<VAR id="WidgetWidth1x1" Formula="300"/>
+        <VAR id="WidgetWidth2x1" Formula="631"/>
+        <VAR id="WidgetWidthALL" Formula="962"/>
+	  </ROWS>
+	  <ROWS>
+		<COLUMN Type="Canvas" id="BigBasic" Formula="Array(`&amp;nbsp`)"
+                Colspan="1" Width="[VAR:WidgetWidth[VALUE:SIZE]]" Height="400%" />
+        </ROWS>
+    </LAYER>
+	</SECTION>
+  </REPORT>
+  <STARTUPSCRIPT ScriptContent="`Init('`&amp;Def(`DashContentId`)&amp;`');`" />
+</PACKAGE>

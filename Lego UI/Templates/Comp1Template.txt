@@ -1,0 +1,12 @@
+[short description]
+This template returns a single dataset for Comp1 toolbox
+
+[filename]
+Comp1Template.txt
+
+[parameters]
+some random parameters
+
+[sql template]
+EXEC RptGetSitesDayUI @SiteGroup='[S]',@SiteList=0,@ItemTag='',@Mode='[MODE]',@UseDate2DateCmp='N',@BD='7/18/2015',@ED='7/18/2015',@ItemListID='[SIL]',@TotalsFlag='GRANDTOTALONLY'
+

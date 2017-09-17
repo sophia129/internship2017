@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+        <LAYER Class="HD1">
+		  <ROWS id="L" Class="HD1">
+            <VAR id="DialogId" Formula="`CorpDialog1`" />
+            <COLUMN Val="[OptionsButton:CorpButton] [Lock] [DEF:ReportName]" Fmt="@" Colspan="2"/>
+          </ROWS>
+          <ROWS>
+            <COLUMN Val="[LABEL:Sm]---[LABEL:S]" Align="Center" Colspan="1"/>
+          </ROWS>
+          <ROWS>
+            <COLUMN Val="[LABEL:M0] vs. [LABEL:M1]" Colspan="1" Align="Center"/>
+          </ROWS>
+		  <ROWS>
+		  <COLUMN Val="[LABEL:SIL]" Colspan="1" Align="Center"/>
+		  </ROWS>
+          </LAYER>
+  
+	

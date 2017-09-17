@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LAYER>
+<ROWS>
+       <DATASET id="0" QueryType="=SIf(Def(`Sm`)=`MTD` Or Def(`Sm`)=`DD`,`SitesDay`,`SitesMonth`)" Mode="[DEF:M0]" Sum="[VALUE:Sm]" TotalsFlag="GRANDTOTALONLY"
+                 Site="SIf(Eval(Def(`S`)=``),gSiteGroup,Def(`S`))" />
+        <DATASET id="1" QueryType="=SIf(Def(`Sm`)=`MTD` Or Def(`Sm`)=`DD`,`SitesDay`,`SitesMonth`)" Mode="[DEF:M1]" Sum="[VALUE:Sm]" TotalsFlag="GRANDTOTALONLY"
+                 Site="SIf(Eval(Def(`S`)=``),gSiteGroup,Def(`S`))" />
+				 </ROWS>
+		<ROWS>
+		<VAR Formula="SFmt(AValtypeFmt(`[FIELD1:SIL]`), AValsZ (Q,0,`[FIELD1:SIL]`)(0))" id="CenterNum" />
+		<VAR Formula="SFmt(`@` ,AValsZ(Q,0,`[FIELD1:SIL]`)(0))" id="CenterNumAmt"/>
+		<VAR Formula="SFmt(`@`,AVarP(AValsZ(Q,0,`[FIELD1:SIL]`),AValsZ(Q,1,`[FIELD1:SIL]`))(0))" id="Comp"/>
+		</ROWS>
+</LAYER>	  

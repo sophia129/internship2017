@@ -1,0 +1,11 @@
+[short description]
+This is a companion template to Comp1Template
+
+[filename]
+getValType.txt
+
+[parameters]
+some random parameters
+
+[sql template]
+SELECT ValType FROM ItemsLists 

@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<PACKAGE>
+  <INCLUDESCRIPT ScriptFileName="Javascript/Sophia.js" />
+  <LIST id="SIZE">
+    <VALUE id="1xH" label="1xHalf" />
+    <VALUE id="1x1" label="1x1" />
+    <VALUE id="2x1" label="2x1" />
+    <VALUE id="ALL" label="Full Size" />
+  </LIST>
+  <LIST id="VIDEO" Source="Video"/>
+  <MENU id="CorpDialog" Type="NotGlobal" Colspan="2">
+    <LAYER>
+      <ROWS>
+        <COLUMN Val="Widget Size" Align="Right" Fmt="@" Class="PULabel" />
+        <COLUMN Val="[LIST:SIZE]" Align="Left" Fmt="@" />
+      </ROWS>
+      <ROWS>
+        <COLUMN Val="Video" Align="Right" Fmt="@" Class="PULabel" />
+        <COLUMN Val="[LIST:VIDEO]" Align="Left" Fmt="@" />
+      </ROWS>
+      <ROWS>
+        <COLUMN Val="Loop" Align="Right" Fmt="@" Class="PULabel" />
+        <VAR id="Loop" Formula="SIf(Len(Request(`Loop`))>0, Request(`Loop`), `off`)" />
+        <COLUMN Val="" Type="CheckBox" id="Loop" Align="Left" Fmt="@" Class="F12" />
+      </ROWS>
+	  
+	  <!--Playlist mode-->
+	  <ROWS>
+		<COLUMN Val="Playlist" Align="Right" Fmt="@" Class="PULabel"/>
+		<VAR id="Playlist" Formula="SIf(Len(Request(`Playlist`))>0, Request(`Playlist`), `off`)" />
+		<COLUMN Val="Check to autoplay" Type="CheckBox" id="Playlist" Align="Left" Fmt="@" Class="F12" />
+	  </ROWS>
+	  <!--Playlist mode-->
+	  
+      <ROWS>
+        <COLUMN Val="Custom Label" Align="Right" Fmt="@" Class="PULabel" />
+        <COLUMN Formula="Array(Def(`ReportName`))" Type="MenuInput" id="ReportName" Width="15" Align="Left" Fmt="@" Class="F12" />
+      </ROWS>
+    </LAYER>
+  </MENU>
+  <OptionsButton id="CorpButton" name="CorpDialog" />
+  <REPORT id="DashVideo">
+    <HEADER>
+      <LAYER  >
+        <ROWS id="L">
+          <VAR id="DialogId" Formula="`CorpDialog1`" />
+          <VAR1 id="ReportName" Formula="ReportName(Def, `YouTube`)" />
+          <COLUMN Val="[OptionsButton:CorpButton] [Lock] [DEF:ReportName]" Fmt="@" />
+        </ROWS>
+      </LAYER>
+    </HEADER>
+    <LAYER>
+      <ROWS>
+        <COLUMN Formula="Array(`&lt;div id='player`&amp;Def(`DashContentId`)&amp;`' &gt;&lt;/div&gt;`)" Align="Center" />
+      </ROWS>
+    </LAYER>
+  </REPORT>
+  
+  <STARTUPSCRIPT ScriptContent="`videoPlay('`&amp;Def(`DashContentId`)&amp;`', '`&amp;Def(`SIZE`)&amp;`', '`&amp;Def(`VIDEO`)&amp;`', '`&amp;Def(`Loop`)&amp;`', '`&amp;Def(`Playlist`)&amp;`');`" />
+</PACKAGE>

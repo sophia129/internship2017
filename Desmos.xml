@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<PACKAGE>
+  <INCLUDESCRIPT ScriptFileName="Javascript/Desmos.js" />
+  
+  
+  <LIST id="SIZE">
+    <VALUE id="1x1" label="1x1" />
+    <VALUE id="2x1" label="2x1" />
+    <VALUE id="ALL" label="Full Size" />
+  </LIST>
+  
+  <MENU id="CorpDialog" Type="NotGlobal" Colspan="4">
+    <LAYER>
+      <ROWS>
+        <COLUMN Val="Widget Size" Align="Right" Fmt="@" Class="PULabel" />
+        <COLUMN Val="[LIST:SIZE]" Align="Left" Fmt="@" />
+      </ROWS>
+      
+      <ROWS>
+        <COLUMN Val="Custom Label" Align="Right" Fmt="@" Class="PULabel" />
+        <COLUMN Formula="Array(Def(`ReportName`))" Type="MenuInput" id="ReportName" Width="15" Align="Left" Fmt="@" Class="F12" />
+      </ROWS>
+    </LAYER>
+  </MENU>
+  
+  <OptionsButton id="CorpButton" name="CorpDialog" /> 
+ <REPORT>
+    <HEADER>
+      <LAYER>
+        <ROWS id="L">
+          <VAR id="DialogId" Formula="`CorpDialog1`" />
+          <COLUMN Val="[OptionsButton:CorpButton] [Lock] [DEF:ReportName]" Fmt="@" />
+        </ROWS>
+      </LAYER>
+    </HEADER>
+    <LAYER>
+      <ROWS>
+          <COLUMN Formula="Array(`&lt;div id='calculator`&amp;Def(`DashContentId`)&amp;`' &gt;&lt;/div&gt;`)" Align="Center" />
+		
+      </ROWS>
+    </LAYER>
+  </REPORT>
+  <STARTUPSCRIPT ScriptContent="`init('`&amp;Def(`DashContentId`)&amp;`');`" />
+</PACKAGE>

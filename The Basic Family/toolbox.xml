@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+		<LAYER>
+		<ROWS>
+				<COLUMN Val="Column" Align="Right" Fmt="@" Class="PULabel" />
+				<COLUMN Val="[LIST:COL]" Align="Left" Fmt="@" />
+			</ROWS>
+			<ROWS>
+				<COLUMN Val="Row" Align="Right" Fmt="@" Class="PULabel" />
+				<COLUMN Val="[LIST:ROW]" Align="Left" Fmt="@" />
+			</ROWS>
+			
+			<!-- <ROWS Filter="Dim:S,Sm"> -->
+			<ROWS>
+				<COLUMN Val="Account List" Align="Right" Fmt="@" Class="PULabel" />
+				<COLUMN Val="[LIST:SIL]" Align="Left" Fmt="@" Class="F12" />
+			</ROWS>
+			<!-- <ROWS Filter="Dim:SIL"> -->
+			<ROWS>
+				<COLUMN Val="Property Lists" Align="Right" Fmt="@" Class="PULabel" />
+				<COLUMN Val="[LIST:S]" Align="Left" Fmt="@" Class="F12" />
+			</ROWS>
+			<!-- <ROWS Filter="Dim:Sm"> -->
+			<ROWS>
+				<COLUMN Val="Property Lists" Align="Right" Fmt="@" Class="PULabel" />
+				<COLUMN Val="[LIST:S]" Align="Left" Fmt="@" Class="F12" />
+			</ROWS>
+			<!-- <ROWS Filter="Dim:SIL,S"> -->
+			<ROWS>
+				<COLUMN Val="Time Period" Align="Right" Fmt="@" Class="PULabel" />
+				<COLUMN Val="[LIST:Sm]" Align="Left" Fmt="@" Class="F12" />
+			</ROWS>
+			<ROWS>
+				<COLUMN Val="Data Set" Align="Right" Fmt="@" Class="PULabel" />
+				<COLUMN Val="[LIST:M1]" Align="Left" Fmt="@" Class="F12" />
+			</ROWS>
+			<ROWS>
+				<COLUMN Val="Comparison" Align="Right" Fmt="@" Class="PULabel" />
+				<COLUMN Val="[LIST:C1]" Align="Left" Fmt="@" Class="F12" />
+			</ROWS>
+			<ROWS>
+			  <COLUMN Val="Percentage 1" Align="Right" Fmt="@" Class="PULabel" />
+			  <COLUMN Val="[DEF:Input1]" Type="Input" InputType="text" id="Input1" Align="Left" Fmt="@" Class="F12" />
+			</ROWS>
+			<ROWS>
+			  <COLUMN Val="Percentage 2" Align="Right" Fmt="@" Class="PULabel" />
+			  <COLUMN Val="[DEF:Input2]" Type="Input" InputType="text" id="Input2" Align="Left" Fmt="@" Class="F12" />
+			</ROWS>
+			<ROWS>
+				<COLUMN Val="Custom Label" Align="Right" Fmt="@" Class="PULabel" />
+				<COLUMN Formula="Array(Def(`ReportName`))" Type="MenuInput" id="ReportName" Width="15" Align="Left" Fmt="@" Class="F12" />
+			</ROWS>
+			<ROWS>
+				<COLUMN Val="Pick List" Align="Right" Fmt="@" Class="PULabel" />
+				<COLUMN Val="[LIST:Dim]" Align="Left" Fmt="@" Class="F12" />
+			</ROWS>
+		</LAYER>
+
+		
+	

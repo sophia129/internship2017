@@ -1,0 +1,639 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PACKAGE>
+	<INCLUDESCRIPT ScriptFileName="Javascript/MultiBasic.js" />
+	<INCLUDESCRIPT ScriptFileName="Javascript/subwidget.js" />
+	
+	<LIST id="ROW">
+		<VALUE id="1" label="1"/>
+		<VALUE id="2" label="2"/>
+		<VALUE id="3" label="3"/>
+		<!--<VALUE id="4" label="4"/>-->
+	</LIST>
+	<LIST id="COL">
+		<VALUE id="1" label="1"/>
+		<VALUE id="2" label="2"/>
+		<VALUE id="3" label="3"/>
+		<VALUE id="4" label="4"/>
+	  </LIST>
+	
+	<LIST id="Dim">
+		<VALUE id="SIL" label="Account List" />
+		<VALUE id="Sm"  label="Time Period" />
+		<VALUE id="S" 	label="Sites" />
+	</LIST>
+	
+	 <LIST id="SIL" Source="StatItems" />
+	 <LIST id="SIL1" Source="StatItems" />
+	 <LIST id="SIL2" Source="StatItems" />
+	 <LIST id="SIL3" Source="StatItems" />
+	 <LIST id="SIL4" Source="StatItems" />
+	 <LIST id="SIL5" Source="StatItems" />
+	 <LIST id="SIL6" Source="StatItems" />
+	 <LIST id="SIL7" Source="StatItems" />
+	 <LIST id="SIL8" Source="StatItems" />
+	 <LIST id="SIL9" Source="StatItems" />
+	 <LIST id="SIL10" Source="StatItems" />
+	 <LIST id="SIL11" Source="StatItems" />
+	 <LIST id="SIL12" Source="StatItems" />	 
+	
+	<LIST id="S" Source="SiteList" />
+	<LIST id="S1" Source="SiteList" />
+	<LIST id="S2" Source="SiteList" />
+	<LIST id="S3" Source="SiteList" />
+	<LIST id="S4" Source="SiteList" />
+	<LIST id="S5" Source="SiteList" />
+	<LIST id="S6" Source="SiteList" />
+	<LIST id="S7" Source="SiteList" />
+	<LIST id="S8" Source="SiteList" />
+	<LIST id="S9" Source="SiteList" />
+	<LIST id="S10" Source="SiteList" />
+	<LIST id="S11" Source="SiteList" />
+	<LIST id="S12" Source="SiteList" />
+	<LIST id="Sm">
+		<VALUE id="DD" label="Day" />
+		<VALUE id="MTD" label="MTD" />
+		<VALUE id="PD" label="Period" />
+		<VALUE id="QTD" label="QTD" />
+		<VALUE id="QQ" label="Quarter" />
+		<VALUE id="YTD" label="YTD" />
+		<VALUE id="YY" label="Year" />
+		<VALUE id="TM1" label="First Trimester" />
+		<VALUE id="TM2" label="Second Trimester" />
+		<VALUE id="TM3" label="Third Trimester" />
+		<VALUE id="MMT3" label="Trailing 3m" />
+		<VALUE id="MMT6" label="Trailing 6m" />
+		<VALUE id="YYT1" label="Trailing 12m" />
+		<VALUE id="MMF3" label="Forward 3m" />
+		<VALUE id="MMF6" label="Forward 6m" />
+		<VALUE id="YYF1" label="Forward 12m" />
+		<VALUE id="YY2" label="2 Years" />
+		<VALUE id="YY3" label="3 Years" />
+	</LIST>
+	<LIST id="Sm1">
+		<VALUE id="DD" label="Day" />
+		<VALUE id="MTD" label="MTD" />
+		<VALUE id="PD" label="Period" />
+		<VALUE id="QTD" label="QTD" />
+		<VALUE id="QQ" label="Quarter" />
+		<VALUE id="YTD" label="YTD" />
+		<VALUE id="YY" label="Year" />
+		<VALUE id="TM1" label="First Trimester" />
+		<VALUE id="TM2" label="Second Trimester" />
+		<VALUE id="TM3" label="Third Trimester" />
+		<VALUE id="MMT3" label="Trailing 3m" />
+		<VALUE id="MMT6" label="Trailing 6m" />
+		<VALUE id="YYT1" label="Trailing 12m" />
+		<VALUE id="MMF3" label="Forward 3m" />
+		<VALUE id="MMF6" label="Forward 6m" />
+		<VALUE id="YYF1" label="Forward 12m" />
+		<VALUE id="YY2" label="2 Years" />
+		<VALUE id="YY3" label="3 Years" />
+	</LIST>
+	<LIST id="Sm2">
+		<VALUE id="DD" label="Day" />
+		<VALUE id="MTD" label="MTD" />
+		<VALUE id="PD" label="Period" />
+		<VALUE id="QTD" label="QTD" />
+		<VALUE id="QQ" label="Quarter" />
+		<VALUE id="YTD" label="YTD" />
+		<VALUE id="YY" label="Year" />
+		<VALUE id="TM1" label="First Trimester" />
+		<VALUE id="TM2" label="Second Trimester" />
+		<VALUE id="TM3" label="Third Trimester" />
+		<VALUE id="MMT3" label="Trailing 3m" />
+		<VALUE id="MMT6" label="Trailing 6m" />
+		<VALUE id="YYT1" label="Trailing 12m" />
+		<VALUE id="MMF3" label="Forward 3m" />
+		<VALUE id="MMF6" label="Forward 6m" />
+		<VALUE id="YYF1" label="Forward 12m" />
+		<VALUE id="YY2" label="2 Years" />
+		<VALUE id="YY3" label="3 Years" />
+	</LIST>
+	<LIST id="Sm3">
+		<VALUE id="DD" label="Day" />
+		<VALUE id="MTD" label="MTD" />
+		<VALUE id="PD" label="Period" />
+		<VALUE id="QTD" label="QTD" />
+		<VALUE id="QQ" label="Quarter" />
+		<VALUE id="YTD" label="YTD" />
+		<VALUE id="YY" label="Year" />
+		<VALUE id="TM1" label="First Trimester" />
+		<VALUE id="TM2" label="Second Trimester" />
+		<VALUE id="TM3" label="Third Trimester" />
+		<VALUE id="MMT3" label="Trailing 3m" />
+		<VALUE id="MMT6" label="Trailing 6m" />
+		<VALUE id="YYT1" label="Trailing 12m" />
+		<VALUE id="MMF3" label="Forward 3m" />
+		<VALUE id="MMF6" label="Forward 6m" />
+		<VALUE id="YYF1" label="Forward 12m" />
+		<VALUE id="YY2" label="2 Years" />
+		<VALUE id="YY3" label="3 Years" />
+	</LIST>
+	<LIST id="Sm4">
+		<VALUE id="DD" label="Day" />
+		<VALUE id="MTD" label="MTD" />
+		<VALUE id="PD" label="Period" />
+		<VALUE id="QTD" label="QTD" />
+		<VALUE id="QQ" label="Quarter" />
+		<VALUE id="YTD" label="YTD" />
+		<VALUE id="YY" label="Year" />
+		<VALUE id="TM1" label="First Trimester" />
+		<VALUE id="TM2" label="Second Trimester" />
+		<VALUE id="TM3" label="Third Trimester" />
+		<VALUE id="MMT3" label="Trailing 3m" />
+		<VALUE id="MMT6" label="Trailing 6m" />
+		<VALUE id="YYT1" label="Trailing 12m" />
+		<VALUE id="MMF3" label="Forward 3m" />
+		<VALUE id="MMF6" label="Forward 6m" />
+		<VALUE id="YYF1" label="Forward 12m" />
+		<VALUE id="YY2" label="2 Years" />
+		<VALUE id="YY3" label="3 Years" />
+	</LIST>
+	<LIST id="Sm5">
+		<VALUE id="DD" label="Day" />
+		<VALUE id="MTD" label="MTD" />
+		<VALUE id="PD" label="Period" />
+		<VALUE id="QTD" label="QTD" />
+		<VALUE id="QQ" label="Quarter" />
+		<VALUE id="YTD" label="YTD" />
+		<VALUE id="YY" label="Year" />
+		<VALUE id="TM1" label="First Trimester" />
+		<VALUE id="TM2" label="Second Trimester" />
+		<VALUE id="TM3" label="Third Trimester" />
+		<VALUE id="MMT3" label="Trailing 3m" />
+		<VALUE id="MMT6" label="Trailing 6m" />
+		<VALUE id="YYT1" label="Trailing 12m" />
+		<VALUE id="MMF3" label="Forward 3m" />
+		<VALUE id="MMF6" label="Forward 6m" />
+		<VALUE id="YYF1" label="Forward 12m" />
+		<VALUE id="YY2" label="2 Years" />
+		<VALUE id="YY3" label="3 Years" />
+	</LIST>
+	<LIST id="Sm6">
+		<VALUE id="DD" label="Day" />
+		<VALUE id="MTD" label="MTD" />
+		<VALUE id="PD" label="Period" />
+		<VALUE id="QTD" label="QTD" />
+		<VALUE id="QQ" label="Quarter" />
+		<VALUE id="YTD" label="YTD" />
+		<VALUE id="YY" label="Year" />
+		<VALUE id="TM1" label="First Trimester" />
+		<VALUE id="TM2" label="Second Trimester" />
+		<VALUE id="TM3" label="Third Trimester" />
+		<VALUE id="MMT3" label="Trailing 3m" />
+		<VALUE id="MMT6" label="Trailing 6m" />
+		<VALUE id="YYT1" label="Trailing 12m" />
+		<VALUE id="MMF3" label="Forward 3m" />
+		<VALUE id="MMF6" label="Forward 6m" />
+		<VALUE id="YYF1" label="Forward 12m" />
+		<VALUE id="YY2" label="2 Years" />
+		<VALUE id="YY3" label="3 Years" />
+	</LIST>
+	<LIST id="Sm7">
+		<VALUE id="DD" label="Day" />
+		<VALUE id="MTD" label="MTD" />
+		<VALUE id="PD" label="Period" />
+		<VALUE id="QTD" label="QTD" />
+		<VALUE id="QQ" label="Quarter" />
+		<VALUE id="YTD" label="YTD" />
+		<VALUE id="YY" label="Year" />
+		<VALUE id="TM1" label="First Trimester" />
+		<VALUE id="TM2" label="Second Trimester" />
+		<VALUE id="TM3" label="Third Trimester" />
+		<VALUE id="MMT3" label="Trailing 3m" />
+		<VALUE id="MMT6" label="Trailing 6m" />
+		<VALUE id="YYT1" label="Trailing 12m" />
+		<VALUE id="MMF3" label="Forward 3m" />
+		<VALUE id="MMF6" label="Forward 6m" />
+		<VALUE id="YYF1" label="Forward 12m" />
+		<VALUE id="YY2" label="2 Years" />
+		<VALUE id="YY3" label="3 Years" />
+	</LIST>
+	<LIST id="Sm8">
+		<VALUE id="DD" label="Day" />
+		<VALUE id="MTD" label="MTD" />
+		<VALUE id="PD" label="Period" />
+		<VALUE id="QTD" label="QTD" />
+		<VALUE id="QQ" label="Quarter" />
+		<VALUE id="YTD" label="YTD" />
+		<VALUE id="YY" label="Year" />
+		<VALUE id="TM1" label="First Trimester" />
+		<VALUE id="TM2" label="Second Trimester" />
+		<VALUE id="TM3" label="Third Trimester" />
+		<VALUE id="MMT3" label="Trailing 3m" />
+		<VALUE id="MMT6" label="Trailing 6m" />
+		<VALUE id="YYT1" label="Trailing 12m" />
+		<VALUE id="MMF3" label="Forward 3m" />
+		<VALUE id="MMF6" label="Forward 6m" />
+		<VALUE id="YYF1" label="Forward 12m" />
+		<VALUE id="YY2" label="2 Years" />
+		<VALUE id="YY3" label="3 Years" />
+	</LIST>
+	<LIST id="Sm9">
+		<VALUE id="DD" label="Day" />
+		<VALUE id="MTD" label="MTD" />
+		<VALUE id="PD" label="Period" />
+		<VALUE id="QTD" label="QTD" />
+		<VALUE id="QQ" label="Quarter" />
+		<VALUE id="YTD" label="YTD" />
+		<VALUE id="YY" label="Year" />
+		<VALUE id="TM1" label="First Trimester" />
+		<VALUE id="TM2" label="Second Trimester" />
+		<VALUE id="TM3" label="Third Trimester" />
+		<VALUE id="MMT3" label="Trailing 3m" />
+		<VALUE id="MMT6" label="Trailing 6m" />
+		<VALUE id="YYT1" label="Trailing 12m" />
+		<VALUE id="MMF3" label="Forward 3m" />
+		<VALUE id="MMF6" label="Forward 6m" />
+		<VALUE id="YYF1" label="Forward 12m" />
+		<VALUE id="YY2" label="2 Years" />
+		<VALUE id="YY3" label="3 Years" />
+	</LIST>
+	<LIST id="Sm10">
+		<VALUE id="DD" label="Day" />
+		<VALUE id="MTD" label="MTD" />
+		<VALUE id="PD" label="Period" />
+		<VALUE id="QTD" label="QTD" />
+		<VALUE id="QQ" label="Quarter" />
+		<VALUE id="YTD" label="YTD" />
+		<VALUE id="YY" label="Year" />
+		<VALUE id="TM1" label="First Trimester" />
+		<VALUE id="TM2" label="Second Trimester" />
+		<VALUE id="TM3" label="Third Trimester" />
+		<VALUE id="MMT3" label="Trailing 3m" />
+		<VALUE id="MMT6" label="Trailing 6m" />
+		<VALUE id="YYT1" label="Trailing 12m" />
+		<VALUE id="MMF3" label="Forward 3m" />
+		<VALUE id="MMF6" label="Forward 6m" />
+		<VALUE id="YYF1" label="Forward 12m" />
+		<VALUE id="YY2" label="2 Years" />
+		<VALUE id="YY3" label="3 Years" />
+	</LIST>
+	<LIST id="Sm11">
+		<VALUE id="DD" label="Day" />
+		<VALUE id="MTD" label="MTD" />
+		<VALUE id="PD" label="Period" />
+		<VALUE id="QTD" label="QTD" />
+		<VALUE id="QQ" label="Quarter" />
+		<VALUE id="YTD" label="YTD" />
+		<VALUE id="YY" label="Year" />
+		<VALUE id="TM1" label="First Trimester" />
+		<VALUE id="TM2" label="Second Trimester" />
+		<VALUE id="TM3" label="Third Trimester" />
+		<VALUE id="MMT3" label="Trailing 3m" />
+		<VALUE id="MMT6" label="Trailing 6m" />
+		<VALUE id="YYT1" label="Trailing 12m" />
+		<VALUE id="MMF3" label="Forward 3m" />
+		<VALUE id="MMF6" label="Forward 6m" />
+		<VALUE id="YYF1" label="Forward 12m" />
+		<VALUE id="YY2" label="2 Years" />
+		<VALUE id="YY3" label="3 Years" />
+	</LIST>
+	<LIST id="Sm12">
+		<VALUE id="DD" label="Day" />
+		<VALUE id="MTD" label="MTD" />
+		<VALUE id="PD" label="Period" />
+		<VALUE id="QTD" label="QTD" />
+		<VALUE id="QQ" label="Quarter" />
+		<VALUE id="YTD" label="YTD" />
+		<VALUE id="YY" label="Year" />
+		<VALUE id="TM1" label="First Trimester" />
+		<VALUE id="TM2" label="Second Trimester" />
+		<VALUE id="TM3" label="Third Trimester" />
+		<VALUE id="MMT3" label="Trailing 3m" />
+		<VALUE id="MMT6" label="Trailing 6m" />
+		<VALUE id="YYT1" label="Trailing 12m" />
+		<VALUE id="MMF3" label="Forward 3m" />
+		<VALUE id="MMF6" label="Forward 6m" />
+		<VALUE id="YYF1" label="Forward 12m" />
+		<VALUE id="YY2" label="2 Years" />
+		<VALUE id="YY3" label="3 Years" />
+	</LIST>
+	<LIST id="M1" Source="MODESLIST" />
+	<LIST id="C1" Source="MODESLIST" />
+	
+	<MENU id="OptionSIL" Colspan="4">
+    <LAYER>
+      <ROWS>
+        <COLUMN Val="Account List" Align="Right" Fmt="@" Class="PULabel" />
+        <COLUMN Val="[LIST:SIL]" Align="Left" Fmt="@" Class="F12" />
+      </ROWS>
+    </LAYER>
+  </MENU>
+  
+  <MENU id="OptionSm" Colspan="4">
+    <LAYER>
+      <ROWS>
+        <COLUMN Val="Time Period" Align="Right" Fmt="@" Class="PULabel" />
+        <COLUMN Val="[LIST:Sm]" Align="Left" Fmt="@" Class="F12" />
+      </ROWS>
+    </LAYER>
+  </MENU>
+  
+  <MENU id="OptionS" Colspan="4">
+    <LAYER>
+      <ROWS>
+        <COLUMN Val="Property List" Align="Right" Fmt="@" Class="PULabel" />
+        <COLUMN Val="[LIST:S]" Align="Left" Fmt="@" Class="F12" />
+      </ROWS>
+    </LAYER>
+  </MENU>
+
+	<MENU id="CorpDialog" Type="NotGlobal" Colspan="4">
+		<LAYER>
+		<ROWS>
+				<COLUMN Val="Column" Align="Right" Fmt="@" Class="PULabel" />
+				<COLUMN Val="[LIST:COL]" Align="Left" Fmt="@" />
+			</ROWS>
+			<ROWS>
+				<COLUMN Val="Row" Align="Right" Fmt="@" Class="PULabel" />
+				<COLUMN Val="[LIST:ROW]" Align="Left" Fmt="@" />
+			</ROWS>
+			
+			<!-- <ROWS Filter="Dim:S,Sm"> -->
+			<ROWS>
+				<COLUMN Val="Account List" Align="Right" Fmt="@" Class="PULabel" />
+				<COLUMN Val="[LIST:SIL]" Align="Left" Fmt="@" Class="F12" />
+			</ROWS>
+			<!-- <ROWS Filter="Dim:SIL"> -->
+			<ROWS>
+				<COLUMN Val="Property Lists" Align="Right" Fmt="@" Class="PULabel" />
+				<COLUMN Val="[LIST:S]" Align="Left" Fmt="@" Class="F12" />
+			</ROWS>
+			<!-- <ROWS Filter="Dim:Sm"> -->
+			<!--<ROWS>
+				<COLUMN Val="Property Lists" Align="Right" Fmt="@" Class="PULabel" />
+				<COLUMN Val="[LIST:S]" Align="Left" Fmt="@" Class="F12" />
+			</ROWS>-->
+			<!-- <ROWS Filter="Dim:SIL,S"> -->
+			<ROWS>
+				<COLUMN Val="Time Period" Align="Right" Fmt="@" Class="PULabel" />
+				<COLUMN Val="[LIST:Sm]" Align="Left" Fmt="@" Class="F12" />
+			</ROWS>
+			<ROWS>
+				<COLUMN Val="Data Set" Align="Right" Fmt="@" Class="PULabel" />
+				<COLUMN Val="[LIST:M1]" Align="Left" Fmt="@" Class="F12" />
+			</ROWS>
+			<ROWS>
+				<COLUMN Val="Comparison" Align="Right" Fmt="@" Class="PULabel" />
+				<COLUMN Val="[LIST:C1]" Align="Left" Fmt="@" Class="F12" />
+			</ROWS>
+			<ROWS>
+			  <COLUMN Val="Percentage 1" Align="Right" Fmt="@" Class="PULabel" />
+			  <COLUMN Val="[DEF:Input1]" Type="Input" InputType="text" id="Input1" Align="Left" Fmt="@" Class="F12" />
+			</ROWS>
+			<ROWS>
+			  <COLUMN Val="Percentage 2" Align="Right" Fmt="@" Class="PULabel" />
+			  <COLUMN Val="[DEF:Input2]" Type="Input" InputType="text" id="Input2" Align="Left" Fmt="@" Class="F12" />
+			</ROWS>
+			<ROWS>
+				<COLUMN Val="Custom Label" Align="Right" Fmt="@" Class="PULabel" />
+				<COLUMN Formula="Array(Def(`ReportName`))" Type="MenuInput" id="ReportName" Width="15" Align="Left" Fmt="@" Class="F12" />
+			</ROWS>
+			<ROWS>
+				<COLUMN Val="Pick List" Align="Right" Fmt="@" Class="PULabel" />
+				<COLUMN Val="[LIST:Dim]" Align="Left" Fmt="@" Class="F12" />
+			</ROWS>
+		</LAYER>
+	</MENU>
+
+<OptionsButton id="CorpButton" name="CorpDialog" />
+	<REPORT>
+		<SECTION>
+			<HEADER>
+				<LAYER Class="HD1">
+					<ROWS>
+						<COLUMN Val="[OptionsButton:CorpButton] [Lock] [DEF:ReportName]" Fmt="@" Colspan="4"/>
+					</ROWS>
+					<ROWS>
+						<COLUMN Val="[LABEL:M1] vs. [LABEL:C1]" Colspan="4" Align="Center"/>
+					</ROWS>
+					<ROWS Filter="Dim:SIL">
+						<COLUMN Val="[LABEL:S]" Colspan="4" Align="Center"/>
+					</ROWS>
+					<ROWS Filter="Dim:Sm">
+						<COLUMN Val="[LABEL:S]" Colspan="4" Align="Center"/>
+					</ROWS>
+					<ROWS Filter="Dim:SIL,S">
+						<COLUMN Val="[LABEL:Sm]" Colspan="4" Align="Center"/>
+					</ROWS>
+					<ROWS Filter="Dim:S,Sm">
+						<COLUMN Val="[LABEL:SIL]" Colspan="4" Align="Center"/>
+					</ROWS>
+				</LAYER>
+			</HEADER>
+
+			<LAYER>
+			<!--"=SIf(Def(`Dim`)=`S`, 
+		SIf(Eval(Def(`S`)=``),gSiteGroup,Def(`S`)), 
+		SIf(Eval(Def(`S1`)=``),gSiteGroup,Def(`S1`)))"-->
+			
+			
+		<DATASET id="1" QueryType="=SIf(Def(`Dim`)=`Sm`, SIf(Def(`Sm1`)=`MTD` Or Def(`Sm1`)=`DD`, `SitesDay`,`SitesMonth`), SIf(Def(`Sm`)=`MTD` Or Def(`Sm`)=`DD`, `SitesDay`, `SitesMonth`))" Mode="[VALUE:M1]" SIL="=SIf(Request(`Dim`)=`SIL`, Def(`VALUE:SIL1`), Def(`VALUE:SIL`))" Sum="=SIf(Request(`Dim`)=`Sm`, Def(`VALUE:Sm1`), Def(`VALUE:Sm`))"
+                 TotalsFlag="GRANDTOTALONLY" Site="SIf(Def(`Dim`)=`S`, SIf(Eval(Def(`S1`)=``),gSiteGroup,Def(`S1`)), SIf(Eval(Def(`S`)=``),gSiteGroup,Def(`S`)))" />
+       <DATASET id="68" QueryType="=SIf(Def(`Dim`)=`Sm`, SIf(Def(`Sm1`)=`MTD` Or Def(`Sm1`)=`DD`, `SitesDay`,`SitesMonth`), SIf(Def(`Sm`)=`MTD` Or Def(`Sm`)=`DD`, `SitesDay`, `SitesMonth`))" Mode="[VALUE:C1]" SIL="=SIf(Request(`Dim`)=`SIL`, Def(`VALUE:SIL1`), Def(`VALUE:SIL`))" Sum="=SIf(Request(`Dim`)=`Sm`, Def(`VALUE:Sm1`), Def(`VALUE:Sm`))"
+                 TotalsFlag="GRANDTOTALONLY" Site="SIf(Def(`Dim`)=`S`, SIf(Eval(Def(`S1`)=``),gSiteGroup,Def(`S1`)), SIf(Eval(Def(`S`)=``),gSiteGroup,Def(`S`)))" />
+        <DATASET id="2" QueryType="=SIf(Def(`Dim`)=`Sm`, SIf(Def(`Sm2`)=`MTD` Or Def(`Sm2`)=`DD`, `SitesDay`,`SitesMonth`), SIf(Def(`Sm`)=`MTD` Or Def(`Sm`)=`DD`, `SitesDay`, `SitesMonth`))" Mode="[VALUE:M1]" SIL="=SIf(Request(`Dim`)=`SIL`, Def(`VALUE:SIL2`), Def(`VALUE:SIL`))" Sum="=SIf(Request(`Dim`)=`Sm`, Def(`VALUE:Sm2`), Def(`VALUE:Sm`))"
+                 TotalsFlag="GRANDTOTALONLY" Site="SIf(Def(`Dim`)=`S`, SIf(Eval(Def(`S2`)=``),gSiteGroup,Def(`S2`)), SIf(Eval(Def(`S`)=``),gSiteGroup,Def(`S`)))" />
+        <DATASET id="21" QueryType="=SIf(Def(`Dim`)=`Sm`, SIf(Def(`Sm2`)=`MTD` Or Def(`Sm2`)=`DD`, `SitesDay`,`SitesMonth`), SIf(Def(`Sm`)=`MTD` Or Def(`Sm`)=`DD`, `SitesDay`, `SitesMonth`))" Mode="[VALUE:C1]" SIL="=SIf(Request(`Dim`)=`SIL`, Def(`VALUE:SIL2`), Def(`VALUE:SIL`))" Sum="=SIf(Request(`Dim`)=`Sm`, Def(`VALUE:Sm2`), Def(`VALUE:Sm`))"
+                 TotalsFlag="GRANDTOTALONLY" Site="SIf(Def(`Dim`)=`S`, SIf(Eval(Def(`S2`)=``),gSiteGroup,Def(`S2`)), SIf(Eval(Def(`S`)=``),gSiteGroup,Def(`S`)))" />
+        <DATASET id="3" QueryType="=SIf(Def(`Dim`)=`Sm`, SIf(Def(`Sm3`)=`MTD` Or Def(`Sm3`)=`DD`, `SitesDay`,`SitesMonth`), SIf(Def(`Sm`)=`MTD` Or Def(`Sm`)=`DD`, `SitesDay`, `SitesMonth`))" Mode="[VALUE:M1]" SIL="=SIf(Request(`Dim`)=`SIL`, Def(`VALUE:SIL3`), Def(`VALUE:SIL`))" Sum="=SIf(Request(`Dim`)=`Sm`, Def(`VALUE:Sm3`), Def(`VALUE:Sm`))"
+                 TotalsFlag="GRANDTOTALONLY" Site="SIf(Def(`Dim`)=`S`, SIf(Eval(Def(`S3`)=``),gSiteGroup,Def(`S3`)), SIf(Eval(Def(`S`)=``),gSiteGroup,Def(`S`)))" />
+        <DATASET id="31" QueryType="=SIf(Def(`Dim`)=`Sm`, SIf(Def(`Sm3`)=`MTD` Or Def(`Sm3`)=`DD`, `SitesDay`,`SitesMonth`), SIf(Def(`Sm`)=`MTD` Or Def(`Sm`)=`DD`, `SitesDay`, `SitesMonth`))" Mode="[VALUE:C1]" SIL="=SIf(Request(`Dim`)=`SIL`, Def(`VALUE:SIL3`), Def(`VALUE:SIL`))" Sum="=SIf(Request(`Dim`)=`Sm`, Def(`VALUE:Sm3`), Def(`VALUE:Sm`))"
+                 TotalsFlag="GRANDTOTALONLY" Site="SIf(Def(`Dim`)=`S`, SIf(Eval(Def(`S3`)=``),gSiteGroup,Def(`S3`)), SIf(Eval(Def(`S`)=``),gSiteGroup,Def(`S`)))" />
+        <DATASET id="4" QueryType="=SIf(Def(`Dim`)=`Sm`, SIf(Def(`Sm4`)=`MTD` Or Def(`Sm4`)=`DD`, `SitesDay`,`SitesMonth`), SIf(Def(`Sm`)=`MTD` Or Def(`Sm`)=`DD`, `SitesDay`, `SitesMonth`))" Mode="[VALUE:M1]" SIL="=SIf(Request(`Dim`)=`SIL`, Def(`VALUE:SIL4`), Def(`VALUE:SIL`))" Sum="=SIf(Request(`Dim`)=`Sm`, Def(`VALUE:Sm4`), Def(`VALUE:Sm`))"
+                 TotalsFlag="GRANDTOTALONLY" Site="SIf(Def(`Dim`)=`S`, SIf(Eval(Def(`S4`)=``),gSiteGroup,Def(`S4`)), SIf(Eval(Def(`S`)=``),gSiteGroup,Def(`S`)))" />
+        <DATASET id="41" QueryType="=SIf(Def(`Dim`)=`Sm`, SIf(Def(`Sm4`)=`MTD` Or Def(`Sm4`)=`DD`, `SitesDay`,`SitesMonth`), SIf(Def(`Sm`)=`MTD` Or Def(`Sm`)=`DD`, `SitesDay`, `SitesMonth`))" Mode="[VALUE:C1]" SIL="=SIf(Request(`Dim`)=`SIL`, Def(`VALUE:SIL4`), Def(`VALUE:SIL`))" Sum="=SIf(Request(`Dim`)=`Sm`, Def(`VALUE:Sm4`), Def(`VALUE:Sm`))"
+                 TotalsFlag="GRANDTOTALONLY" Site="SIf(Def(`Dim`)=`S`, SIf(Eval(Def(`S4`)=``),gSiteGroup,Def(`S4`)), SIf(Eval(Def(`S`)=``),gSiteGroup,Def(`S`)))" />
+		<DATASET id="5" QueryType="=SIf(Def(`Dim`)=`Sm`, SIf(Def(`Sm5`)=`MTD` Or Def(`Sm5`)=`DD`, `SitesDay`,`SitesMonth`), SIf(Def(`Sm`)=`MTD` Or Def(`Sm`)=`DD`, `SitesDay`, `SitesMonth`))" Mode="[VALUE:M1]" SIL="=SIf(Request(`Dim`)=`SIL`, Def(`VALUE:SIL5`), Def(`VALUE:SIL`))" Sum="=SIf(Request(`Dim`)=`Sm`, Def(`VALUE:Sm5`), Def(`VALUE:Sm`))"
+                 TotalsFlag="GRANDTOTALONLY" Site="SIf(Def(`Dim`)=`S`, SIf(Eval(Def(`S5`)=``),gSiteGroup,Def(`S5`)), SIf(Eval(Def(`S`)=``),gSiteGroup,Def(`S`)))" />
+        <DATASET id="51" QueryType="=SIf(Def(`Dim`)=`Sm`, SIf(Def(`Sm5`)=`MTD` Or Def(`Sm5`)=`DD`, `SitesDay`,`SitesMonth`), SIf(Def(`Sm`)=`MTD` Or Def(`Sm`)=`DD`, `SitesDay`, `SitesMonth`))" Mode="[VALUE:C1]" SIL="=SIf(Request(`Dim`)=`SIL`, Def(`VALUE:SIL5`), Def(`VALUE:SIL`))" Sum="=SIf(Request(`Dim`)=`Sm`, Def(`VALUE:Sm5`), Def(`VALUE:Sm`))"
+                 TotalsFlag="GRANDTOTALONLY" Site="SIf(Def(`Dim`)=`S`, SIf(Eval(Def(`S5`)=``),gSiteGroup,Def(`S5`)), SIf(Eval(Def(`S`)=``),gSiteGroup,Def(`S`)))" />
+		<DATASET id="6" QueryType="=SIf(Def(`Dim`)=`Sm`, SIf(Def(`Sm6`)=`MTD` Or Def(`Sm6`)=`DD`, `SitesDay`,`SitesMonth`), SIf(Def(`Sm`)=`MTD` Or Def(`Sm`)=`DD`, `SitesDay`, `SitesMonth`))" Mode="[VALUE:M1]" SIL="=SIf(Request(`Dim`)=`SIL`, Def(`VALUE:SIL6`), Def(`VALUE:SIL`))" Sum="=SIf(Request(`Dim`)=`Sm`, Def(`VALUE:Sm6`), Def(`VALUE:Sm`))"
+                 TotalsFlag="GRANDTOTALONLY" Site="SIf(Def(`Dim`)=`S`, SIf(Eval(Def(`S6`)=``),gSiteGroup,Def(`S6`)), SIf(Eval(Def(`S`)=``),gSiteGroup,Def(`S`)))" />
+        <DATASET id="61" QueryType="=SIf(Def(`Dim`)=`Sm`, SIf(Def(`Sm6`)=`MTD` Or Def(`Sm6`)=`DD`, `SitesDay`,`SitesMonth`), SIf(Def(`Sm`)=`MTD` Or Def(`Sm`)=`DD`, `SitesDay`, `SitesMonth`))" Mode="[VALUE:C1]" SIL="=SIf(Request(`Dim`)=`SIL`, Def(`VALUE:SIL6`), Def(`VALUE:SIL`))" Sum="=SIf(Request(`Dim`)=`Sm`, Def(`VALUE:Sm6`), Def(`VALUE:Sm`))"
+                 TotalsFlag="GRANDTOTALONLY" Site="SIf(Def(`Dim`)=`S`, SIf(Eval(Def(`S6`)=``),gSiteGroup,Def(`S6`)), SIf(Eval(Def(`S`)=``),gSiteGroup,Def(`S`)))" />
+		<DATASET id="7" QueryType="=SIf(Def(`Dim`)=`Sm`, SIf(Def(`Sm7`)=`MTD` Or Def(`Sm7`)=`DD`, `SitesDay`,`SitesMonth`), SIf(Def(`Sm`)=`MTD` Or Def(`Sm`)=`DD`, `SitesDay`, `SitesMonth`))" Mode="[VALUE:M1]" SIL="=SIf(Request(`Dim`)=`SIL`, Def(`VALUE:SIL7`), Def(`VALUE:SIL`))" Sum="=SIf(Request(`Dim`)=`Sm`, Def(`VALUE:Sm7`), Def(`VALUE:Sm`))"
+                 TotalsFlag="GRANDTOTALONLY" Site="SIf(Def(`Dim`)=`S`, SIf(Eval(Def(`S7`)=``),gSiteGroup,Def(`S7`)), SIf(Eval(Def(`S`)=``),gSiteGroup,Def(`S`)))" />
+        <DATASET id="71" QueryType="=SIf(Def(`Dim`)=`Sm`, SIf(Def(`Sm7`)=`MTD` Or Def(`Sm7`)=`DD`, `SitesDay`,`SitesMonth`), SIf(Def(`Sm`)=`MTD` Or Def(`Sm`)=`DD`, `SitesDay`, `SitesMonth`))" Mode="[VALUE:C1]" SIL="=SIf(Request(`Dim`)=`SIL`, Def(`VALUE:SIL7`), Def(`VALUE:SIL`))" Sum="=SIf(Request(`Dim`)=`Sm`, Def(`VALUE:Sm7`), Def(`VALUE:Sm`))"
+                 TotalsFlag="GRANDTOTALONLY" Site="SIf(Def(`Dim`)=`S`, SIf(Eval(Def(`S7`)=``),gSiteGroup,Def(`S7`)), SIf(Eval(Def(`S`)=``),gSiteGroup,Def(`S`)))" />
+		<DATASET id="8" QueryType="=SIf(Def(`Dim`)=`Sm`, SIf(Def(`Sm8`)=`MTD` Or Def(`Sm8`)=`DD`, `SitesDay`,`SitesMonth`), SIf(Def(`Sm`)=`MTD` Or Def(`Sm`)=`DD`, `SitesDay`, `SitesMonth`))" Mode="[VALUE:M1]" SIL="=SIf(Request(`Dim`)=`SIL`, Def(`VALUE:SIL8`), Def(`VALUE:SIL`))" Sum="=SIf(Request(`Dim`)=`Sm`, Def(`VALUE:Sm8`), Def(`VALUE:Sm`))"
+                 TotalsFlag="GRANDTOTALONLY" Site="SIf(Def(`Dim`)=`S`, SIf(Eval(Def(`S8`)=``),gSiteGroup,Def(`S8`)), SIf(Eval(Def(`S`)=``),gSiteGroup,Def(`S`)))" />
+        <DATASET id="81" QueryType="=SIf(Def(`Dim`)=`Sm`, SIf(Def(`Sm8`)=`MTD` Or Def(`Sm8`)=`DD`, `SitesDay`,`SitesMonth`), SIf(Def(`Sm`)=`MTD` Or Def(`Sm`)=`DD`, `SitesDay`, `SitesMonth`))" Mode="[VALUE:C1]" SIL="=SIf(Request(`Dim`)=`SIL`, Def(`VALUE:SIL8`), Def(`VALUE:SIL`))" Sum="=SIf(Request(`Dim`)=`Sm`, Def(`VALUE:Sm8`), Def(`VALUE:Sm`))"
+                 TotalsFlag="GRANDTOTALONLY" Site="SIf(Def(`Dim`)=`S`, SIf(Eval(Def(`S8`)=``),gSiteGroup,Def(`S8`)), SIf(Eval(Def(`S`)=``),gSiteGroup,Def(`S`)))" />
+		<DATASET id="9" QueryType="=SIf(Def(`Dim`)=`Sm`, SIf(Def(`Sm9`)=`MTD` Or Def(`Sm9`)=`DD`, `SitesDay`,`SitesMonth`), SIf(Def(`Sm`)=`MTD` Or Def(`Sm`)=`DD`, `SitesDay`, `SitesMonth`))" Mode="[VALUE:M1]" SIL="=SIf(Request(`Dim`)=`SIL`, Def(`VALUE:SIL9`), Def(`VALUE:SIL`))" Sum="=SIf(Request(`Dim`)=`Sm`, Def(`VALUE:Sm9`), Def(`VALUE:Sm`))"
+                 TotalsFlag="GRANDTOTALONLY" Site="SIf(Def(`Dim`)=`S`, SIf(Eval(Def(`S9`)=``),gSiteGroup,Def(`S9`)), SIf(Eval(Def(`S`)=``),gSiteGroup,Def(`S`)))" />
+        <DATASET id="91" QueryType="=SIf(Def(`Dim`)=`Sm`, SIf(Def(`Sm9`)=`MTD` Or Def(`Sm9`)=`DD`, `SitesDay`,`SitesMonth`), SIf(Def(`Sm`)=`MTD` Or Def(`Sm`)=`DD`, `SitesDay`, `SitesMonth`))" Mode="[VALUE:C1]" SIL="=SIf(Request(`Dim`)=`SIL`, Def(`VALUE:SIL9`), Def(`VALUE:SIL`))" Sum="=SIf(Request(`Dim`)=`Sm`, Def(`VALUE:Sm9`), Def(`VALUE:Sm`))"
+                 TotalsFlag="GRANDTOTALONLY" Site="SIf(Def(`Dim`)=`S`, SIf(Eval(Def(`S9`)=``),gSiteGroup,Def(`S9`)), SIf(Eval(Def(`S`)=``),gSiteGroup,Def(`S`)))" />
+		<DATASET id="10" QueryType="=SIf(Def(`Dim`)=`Sm`, SIf(Def(`Sm10`)=`MTD` Or Def(`Sm10`)=`DD`, `SitesDay`,`SitesMonth`), SIf(Def(`Sm`)=`MTD` Or Def(`Sm`)=`DD`, `SitesDay`, `SitesMonth`))" Mode="[VALUE:M1]" SIL="=SIf(Request(`Dim`)=`SIL`, Def(`VALUE:SIL10`), Def(`VALUE:SIL`))" Sum="=SIf(Request(`Dim`)=`Sm`, Def(`VALUE:Sm10`), Def(`VALUE:Sm`))"
+                 TotalsFlag="GRANDTOTALONLY" Site="SIf(Def(`Dim`)=`S`, SIf(Eval(Def(`S10`)=``),gSiteGroup,Def(`S10`)), SIf(Eval(Def(`S`)=``),gSiteGroup,Def(`S`)))" />
+        <DATASET id="101" QueryType="=SIf(Def(`Dim`)=`Sm`, SIf(Def(`Sm10`)=`MTD` Or Def(`Sm10`)=`DD`, `SitesDay`,`SitesMonth`), SIf(Def(`Sm`)=`MTD` Or Def(`Sm`)=`DD`, `SitesDay`, `SitesMonth`))" Mode="[VALUE:C1]" SIL="=SIf(Request(`Dim`)=`SIL`, Def(`VALUE:SIL10`), Def(`VALUE:SIL`))" Sum="=SIf(Request(`Dim`)=`Sm`, Def(`VALUE:Sm10`), Def(`VALUE:Sm`))"
+                 TotalsFlag="GRANDTOTALONLY" Site="SIf(Def(`Dim`)=`S`, SIf(Eval(Def(`S10`)=``),gSiteGroup,Def(`S10`)), SIf(Eval(Def(`S`)=``),gSiteGroup,Def(`S`)))" />
+		<DATASET id="11" QueryType="=SIf(Def(`Dim`)=`Sm`, SIf(Def(`Sm11`)=`MTD` Or Def(`Sm11`)=`DD`, `SitesDay`,`SitesMonth`), SIf(Def(`Sm`)=`MTD` Or Def(`Sm`)=`DD`, `SitesDay`, `SitesMonth`))" Mode="[VALUE:M1]" SIL="=SIf(Request(`Dim`)=`SIL`, Def(`VALUE:SIL11`), Def(`VALUE:SIL`))" Sum="=SIf(Request(`Dim`)=`Sm`, Def(`VALUE:Sm11`), Def(`VALUE:Sm`))"
+                 TotalsFlag="GRANDTOTALONLY" Site="SIf(Def(`Dim`)=`S`, SIf(Eval(Def(`S11`)=``),gSiteGroup,Def(`S11`)), SIf(Eval(Def(`S`)=``),gSiteGroup,Def(`S`)))" />
+        <DATASET id="111" QueryType="=SIf(Def(`Dim`)=`Sm`, SIf(Def(`Sm11`)=`MTD` Or Def(`Sm11`)=`DD`, `SitesDay`,`SitesMonth`), SIf(Def(`Sm`)=`MTD` Or Def(`Sm`)=`DD`, `SitesDay`, `SitesMonth`))" Mode="[VALUE:C1]" SIL="=SIf(Request(`Dim`)=`SIL`, Def(`VALUE:SIL11`), Def(`VALUE:SIL`))" Sum="=SIf(Request(`Dim`)=`Sm`, Def(`VALUE:Sm11`), Def(`VALUE:Sm`))"
+                 TotalsFlag="GRANDTOTALONLY" Site="SIf(Def(`Dim`)=`S`, SIf(Eval(Def(`S11`)=``),gSiteGroup,Def(`S11`)), SIf(Eval(Def(`S`)=``),gSiteGroup,Def(`S`)))" />
+		<DATASET id="12" QueryType="=SIf(Def(`Dim`)=`Sm`, SIf(Def(`Sm12`)=`MTD` Or Def(`Sm12`)=`DD`, `SitesDay`,`SitesMonth`), SIf(Def(`Sm`)=`MTD` Or Def(`Sm`)=`DD`, `SitesDay`, `SitesMonth`))" Mode="[VALUE:M1]" SIL="=SIf(Request(`Dim`)=`SIL`, Def(`VALUE:SIL12`), Def(`VALUE:SIL`))" Sum="=SIf(Request(`Dim`)=`Sm`, Def(`VALUE:Sm12`), Def(`VALUE:Sm`))"
+                 TotalsFlag="GRANDTOTALONLY" Site="SIf(Def(`Dim`)=`S`, SIf(Eval(Def(`S12`)=``),gSiteGroup,Def(`S12`)), SIf(Eval(Def(`S`)=``),gSiteGroup,Def(`S`)))" />
+        <DATASET id="121" QueryType="=SIf(Def(`Dim`)=`Sm`, SIf(Def(`Sm12`)=`MTD` Or Def(`Sm12`)=`DD`, `SitesDay`,`SitesMonth`), SIf(Def(`Sm`)=`MTD` Or Def(`Sm`)=`DD`, `SitesDay`, `SitesMonth`))" Mode="[VALUE:C1]" SIL="=SIf(Request(`Dim`)=`SIL`, Def(`VALUE:SIL12`), Def(`VALUE:SIL`))" Sum="=SIf(Request(`Dim`)=`Sm`, Def(`VALUE:Sm12`), Def(`VALUE:Sm`))"
+                 TotalsFlag="GRANDTOTALONLY" Site="SIf(Def(`Dim`)=`S`, SIf(Eval(Def(`S12`)=``),gSiteGroup,Def(`S12`)), SIf(Eval(Def(`S`)=``),gSiteGroup,Def(`S`)))" />
+				
+
+				<ROWS>
+				  <COLUMN Formula="=SIf(Def(`Dim`)=`SIL`, AValsZ(Q,1,`[FIELD1:SIL1]`), AValsZ(Q,1,`[FIELD1:SIL]`))" Type="Info" id="CenterNumA" 
+				  Fmt="=SIf(Def(`Dim`)=`SIL`, AValTypeFmt(`[FIELD1:SIL1]`), AValTypeFmt(`[FIELD1:SIL]`))" Align="Center" />
+					<COLUMN Formula="=SIf(Def(`Dim`)=`SIL`, AValsZ(Q,1,`[FIELD1:SIL1]`), AValsZ(Q,1,`[FIELD1:SIL]`))" Type="Info" id="CenterNumAmtA" Fmt="@" Align="Center" />
+				    <COLUMN Formula="SIf(Def(`Dim`)=`SIL`,AVarP(AValsZ(Q,1,`[FIELD1:SIL1]`),AValsZ(Q,68,`[FIELD1:SIL1]`)),AVarP(AValsZ(Q,1,`[FIELD1:SIL]`),AValsZ(Q,68,`[FIELD1:SIL]`)))" Fmt="#.#" id="CompA"
+                  Type="Info" />
+				  <COLUMN Val="=SIf(Def(`Dim`)=`SIL`, `[FIELD1:SIL1]`, `[FIELD1:SIL]`)" Fmt="@" id="ValTypeA" Type="Info" />
+				</ROWS>
+				
+				<ROWS>
+				  <COLUMN Formula="=SIf(Def(`Dim`)=`SIL`, AValsZ(Q,2,`[FIELD1:SIL2]`), AValsZ(Q,2,`[FIELD1:SIL]`))" Type="Info" id="CenterNumB" 
+				   Fmt="=SIf(Def(`Dim`)=`SIL`, AValTypeFmt(`[FIELD1:SIL2]`), AValTypeFmt(`[FIELD1:SIL]`))" Align="Center" />
+				<COLUMN Formula="SIf(Def(`Dim`)=`SIL`, AValsZ(Q,2,`[FIELD1:SIL2]`), AValsZ(Q,2,`[FIELD1:SIL]`))" Type="Info" id="CenterNumAmtB" Fmt="@" Align="Center" />
+				  <COLUMN Formula="SIf(Def(`Dim`)=`SIL`,AVarP(AValsZ(Q,2,`[FIELD1:SIL2]`),AValsZ(Q,21,`[FIELD1:SIL2]`)),AVarP(AValsZ(Q,2,`[FIELD1:SIL]`),AValsZ(Q,21,`[FIELD1:SIL]`)))" Fmt="#.#" id="CompB"
+                  Type="Info" />
+				  <COLUMN Val="=SIf(Def(`Dim`)=`SIL`, `[FIELD1:SIL2]`, `[FIELD1:SIL]`)" Fmt="@" id="ValTypeB" Type="Info" />
+				</ROWS>
+				
+				<ROWS>
+				  <COLUMN Formula="=SIf(Def(`Dim`)=`SIL`, AValsZ(Q,3,`[FIELD1:SIL3]`), AValsZ(Q,3,`[FIELD1:SIL]`))" Type="Info" id="CenterNumC" 
+				 Fmt="=SIf(Def(`Dim`)=`SIL`, AValTypeFmt(`[FIELD1:SIL3]`), AValTypeFmt(`[FIELD1:SIL]`))" Align="Center" />
+					<COLUMN Formula="=SIf(Def(`Dim`)=`SIL`, AValsZ(Q,3,`[FIELD1:SIL3]`), AValsZ(Q,3,`[FIELD1:SIL]`))" Type="Info" id="CenterNumAmtC" Fmt="@" Align="Center" />
+				  <COLUMN Formula="SIf(Def(`Dim`)=`SIL`,AVarP(AValsZ(Q,3,`[FIELD1:SIL3]`),AValsZ(Q,31,`[FIELD1:SIL3]`)),AVarP(AValsZ(Q,3,`[FIELD1:SIL]`),AValsZ(Q,31,`[FIELD1:SIL]`)))" Fmt="#.#" id="CompC"
+                  Type="Info" />
+				  <COLUMN Val="=SIf(Def(`Dim`)=`SIL`, `[FIELD1:SIL3]`, `[FIELD1:SIL]`)" Fmt="@" id="ValTypeC" Type="Info" />
+				</ROWS>
+				
+				<ROWS>
+				  <COLUMN Formula="=SIf(Def(`Dim`)=`SIL`, AValsZ(Q,4,`[FIELD1:SIL4]`), AValsZ(Q,4,`[FIELD1:SIL]`))" Type="Info" id="CenterNumD" 
+				  Fmt="=SIf(Def(`Dim`)=`SIL`, AValTypeFmt(`[FIELD1:SIL4]`), AValTypeFmt(`[FIELD1:SIL]`))"
+						  Align="Center" />
+					<COLUMN Formula="=SIf(Def(`Dim`)=`SIL`, AValsZ(Q,4,`[FIELD1:SIL4]`), AValsZ(Q,4,`[FIELD1:SIL]`))" Type="Info" id="CenterNumAmtD" Fmt="@" Align="Center" />
+				  <COLUMN Formula="SIf(Def(`Dim`)=`SIL`,AVarP(AValsZ(Q,4,`[FIELD1:SIL4]`),AValsZ(Q,41,`[FIELD1:SIL4]`)),AVarP(AValsZ(Q,4,`[FIELD1:SIL]`),AValsZ(Q,41,`[FIELD1:SIL]`)))" Fmt="#.#" id="CompD"
+                  Type="Info" />
+				  <COLUMN Val="=SIf(Def(`Dim`)=`SIL`, `[FIELD1:SIL4]`, `[FIELD1:SIL]`)" Fmt="@" id="ValTypeD" Type="Info" />
+				</ROWS>
+				<ROWS>
+				  <COLUMN Formula="=SIf(Def(`Dim`)=`SIL`, AValsZ(Q,5,`[FIELD1:SIL5]`), AValsZ(Q,5,`[FIELD1:SIL]`))" Type="Info" id="CenterNumE" 
+				  Fmt="=SIf(Def(`Dim`)=`SIL`, AValTypeFmt(`[FIELD1:SIL5]`), AValTypeFmt(`[FIELD1:SIL]`))"
+						  Align="Center" />
+					<COLUMN Formula="=SIf(Def(`Dim`)=`SIL`, AValsZ(Q,5,`[FIELD1:SIL5]`), AValsZ(Q,5,`[FIELD1:SIL]`))" Type="Info" id="CenterNumAmtE" Fmt="@" Align="Center" />
+				  <COLUMN Formula="SIf(Def(`Dim`)=`SIL`,AVarP(AValsZ(Q,5,`[FIELD1:SIL5]`),AValsZ(Q,51,`[FIELD1:SIL5]`)),AVarP(AValsZ(Q,5,`[FIELD1:SIL]`),AValsZ(Q,51,`[FIELD1:SIL]`)))" Fmt="#.#" id="CompE"
+                  Type="Info" />
+				  <COLUMN Val="=SIf(Def(`Dim`)=`SIL`, `[FIELD1:SIL5]`, `[FIELD1:SIL]`)" Fmt="@" id="ValTypeE" Type="Info" />
+				</ROWS>
+				<ROWS>
+				  <COLUMN Formula="=SIf(Def(`Dim`)=`SIL`, AValsZ(Q,6,`[FIELD1:SIL6]`), AValsZ(Q,6,`[FIELD1:SIL]`))" Type="Info" id="CenterNumF" 
+				  Fmt="=SIf(Def(`Dim`)=`SIL`, AValTypeFmt(`[FIELD1:SIL6]`), AValTypeFmt(`[FIELD1:SIL]`))"
+						  Align="Center" />
+					<COLUMN Formula="=SIf(Def(`Dim`)=`SIL`, AValsZ(Q,6,`[FIELD1:SIL6]`), AValsZ(Q,6,`[FIELD1:SIL]`))" Type="Info" id="CenterNumAmtF" Fmt="@" Align="Center" />
+				  <COLUMN Formula="SIf(Def(`Dim`)=`SIL`,AVarP(AValsZ(Q,6,`[FIELD1:SIL6]`),AValsZ(Q,61,`[FIELD1:SIL6]`)),AVarP(AValsZ(Q,6,`[FIELD1:SIL]`),AValsZ(Q,61,`[FIELD1:SIL]`)))" Fmt="#.#" id="CompF"
+                  Type="Info" />
+				  <COLUMN Val="=SIf(Def(`Dim`)=`SIL`, `[FIELD1:SIL6]`, `[FIELD1:SIL]`)" Fmt="@" id="ValTypeF" Type="Info" />
+				</ROWS>
+				<ROWS>
+				  <COLUMN Formula="=SIf(Def(`Dim`)=`SIL`, AValsZ(Q,7,`[FIELD1:SIL7]`), AValsZ(Q,7,`[FIELD1:SIL]`))" Type="Info" id="CenterNumG" 
+				  Fmt="=SIf(Def(`Dim`)=`SIL`, AValTypeFmt(`[FIELD1:SIL7]`), AValTypeFmt(`[FIELD1:SIL]`))"
+						  Align="Center" />
+					<COLUMN Formula="=SIf(Def(`Dim`)=`SIL`, AValsZ(Q,7,`[FIELD1:SIL7]`), AValsZ(Q,7,`[FIELD1:SIL]`))" Type="Info" id="CenterNumAmtG" Fmt="@" Align="Center" />
+				  <COLUMN Formula="SIf(Def(`Dim`)=`SIL`,AVarP(AValsZ(Q,7,`[FIELD1:SIL7]`),AValsZ(Q,71,`[FIELD1:SIL7]`)),AVarP(AValsZ(Q,7,`[FIELD1:SIL]`),AValsZ(Q,71,`[FIELD1:SIL]`)))" Fmt="#.#" id="CompG"
+                  Type="Info" />
+				  <COLUMN Val="=SIf(Def(`Dim`)=`SIL`, `[FIELD1:SIL7]`, `[FIELD1:SIL]`)" Fmt="@" id="ValTypeG" Type="Info" />
+				</ROWS>
+				<ROWS>
+				  <COLUMN Formula="=SIf(Def(`Dim`)=`SIL`, AValsZ(Q,8,`[FIELD1:SIL8]`), AValsZ(Q,8,`[FIELD1:SIL]`))" Type="Info" id="CenterNumH" 
+				  Fmt="=SIf(Def(`Dim`)=`SIL`, AValTypeFmt(`[FIELD1:SIL8]`), AValTypeFmt(`[FIELD1:SIL]`))"
+						  Align="Center" />
+					<COLUMN Formula="=SIf(Def(`Dim`)=`SIL`, AValsZ(Q,8,`[FIELD1:SIL8]`), AValsZ(Q,8,`[FIELD1:SIL]`))" Type="Info" id="CenterNumAmtH" Fmt="@" Align="Center" />
+				  <COLUMN Formula="SIf(Def(`Dim`)=`SIL`,AVarP(AValsZ(Q,8,`[FIELD1:SIL8]`),AValsZ(Q,81,`[FIELD1:SIL8]`)),AVarP(AValsZ(Q,8,`[FIELD1:SIL]`),AValsZ(Q,81,`[FIELD1:SIL]`)))" Fmt="#.#" id="CompH"
+                  Type="Info" />
+				  <COLUMN Val="=SIf(Def(`Dim`)=`SIL`, `[FIELD1:SIL8]`, `[FIELD1:SIL]`)" Fmt="@" id="ValTypeH" Type="Info" />
+				</ROWS>
+				<ROWS>
+				  <COLUMN Formula="=SIf(Def(`Dim`)=`SIL`, AValsZ(Q,9,`[FIELD1:SIL9]`), AValsZ(Q,9,`[FIELD1:SIL]`))" Type="Info" id="CenterNumI" 
+				  Fmt="=SIf(Def(`Dim`)=`SIL`, AValTypeFmt(`[FIELD1:SIL9]`), AValTypeFmt(`[FIELD1:SIL]`))"
+						  Align="Center" />
+					<COLUMN Formula="=SIf(Def(`Dim`)=`SIL`, AValsZ(Q,9,`[FIELD1:SIL9]`), AValsZ(Q,9,`[FIELD1:SIL]`))" Type="Info" id="CenterNumAmtI" Fmt="@" Align="Center" />
+				  <COLUMN Formula="SIf(Def(`Dim`)=`SIL`,AVarP(AValsZ(Q,9,`[FIELD1:SIL9]`),AValsZ(Q,91,`[FIELD1:SIL9]`)),AVarP(AValsZ(Q,9,`[FIELD1:SIL]`),AValsZ(Q,91,`[FIELD1:SIL]`)))" Fmt="#.#" id="CompI"
+                  Type="Info" />
+				  <COLUMN Val="=SIf(Def(`Dim`)=`SIL`, `[FIELD1:SIL9]`, `[FIELD1:SIL]`)" Fmt="@" id="ValTypeI" Type="Info" />
+				</ROWS>
+				<ROWS>
+				  <COLUMN Formula="=SIf(Def(`Dim`)=`SIL`, AValsZ(Q,10,`[FIELD1:SIL10]`), AValsZ(Q,10,`[FIELD1:SIL]`))" Type="Info" id="CenterNumJ" 
+				  Fmt="=SIf(Def(`Dim`)=`SIL`, AValTypeFmt(`[FIELD1:SIL10]`), AValTypeFmt(`[FIELD1:SIL]`))"
+						  Align="Center" />
+					<COLUMN Formula="=SIf(Def(`Dim`)=`SIL`, AValsZ(Q,10,`[FIELD1:SIL10]`), AValsZ(Q,10,`[FIELD1:SIL]`))" Type="Info" id="CenterNumAmtJ" Fmt="@" Align="Center" />
+				  <COLUMN Formula="SIf(Def(`Dim`)=`SIL`,AVarP(AValsZ(Q,10,`[FIELD1:SIL10]`),AValsZ(Q,101,`[FIELD1:SIL10]`)),AVarP(AValsZ(Q,10,`[FIELD1:SIL]`),AValsZ(Q,101,`[FIELD1:SIL]`)))" Fmt="#.#" id="CompJ"
+                  Type="Info" />
+				  <COLUMN Val="=SIf(Def(`Dim`)=`SIL`, `[FIELD1:SIL10]`, `[FIELD1:SIL]`)" Fmt="@" id="ValTypeJ" Type="Info" />
+				</ROWS>
+				<ROWS>
+				  <COLUMN Formula="=SIf(Def(`Dim`)=`SIL`, AValsZ(Q,11,`[FIELD1:SIL11]`), AValsZ(Q,11,`[FIELD1:SIL]`))" Type="Info" id="CenterNumK" 
+				  Fmt="=SIf(Def(`Dim`)=`SIL`, AValTypeFmt(`[FIELD1:SIL11]`), AValTypeFmt(`[FIELD1:SIL]`))"
+						  Align="Center" />
+					<COLUMN Formula="=SIf(Def(`Dim`)=`SIL`, AValsZ(Q,11,`[FIELD1:SIL11]`), AValsZ(Q,11,`[FIELD1:SIL]`))" Type="Info" id="CenterNumAmtK" Fmt="@" Align="Center" />
+				  <COLUMN Formula="SIf(Def(`Dim`)=`SIL`,AVarP(AValsZ(Q,11,`[FIELD1:SIL11]`),AValsZ(Q,111,`[FIELD1:SIL11]`)),AVarP(AValsZ(Q,11,`[FIELD1:SIL]`),AValsZ(Q,111,`[FIELD1:SIL]`)))" Fmt="#.#" id="CompK"
+                  Type="Info" />
+				  <COLUMN Val="=SIf(Def(`Dim`)=`SIL`, `[FIELD1:SIL11]`, `[FIELD1:SIL]`)" Fmt="@" id="ValTypeK" Type="Info" />
+				</ROWS>
+				<ROWS>
+				  <COLUMN Formula="=SIf(Def(`Dim`)=`SIL`, AValsZ(Q,12,`[FIELD1:SIL12]`), AValsZ(Q,12,`[FIELD1:SIL]`))" Type="Info" id="CenterNumL" 
+				  Fmt="=SIf(Def(`Dim`)=`SIL`, AValTypeFmt(`[FIELD1:SIL12]`), AValTypeFmt(`[FIELD1:SIL]`))"
+						  Align="Center" />
+					<COLUMN Formula="=SIf(Def(`Dim`)=`SIL`, AValsZ(Q,12,`[FIELD1:SIL12]`), AValsZ(Q,12,`[FIELD1:SIL]`))" Type="Info" id="CenterNumAmtL" Fmt="@" Align="Center" />
+				  <COLUMN Formula="SIf(Def(`Dim`)=`SIL`,AVarP(AValsZ(Q,12,`[FIELD1:SIL12]`),AValsZ(Q,121,`[FIELD1:SIL12]`)),AVarP(AValsZ(Q,12,`[FIELD1:SIL]`),AValsZ(Q,121,`[FIELD1:SIL]`)))" Fmt="#.#" id="CompL"
+                  Type="Info" />
+				  <COLUMN Val="=SIf(Def(`Dim`)=`SIL`, `[FIELD1:SIL12]`, `[FIELD1:SIL]`)" Fmt="@" id="ValTypeL" Type="Info" />
+				</ROWS>
+				<ROWS>
+					<COLUMN Formula="Array(`&lt;div class='widget' id='divA' &gt; &lt;h1 id='hA'&gt;&lt;/h1&gt; &lt;/div&gt;`)" Style="width: 308px; height:140px"/> 
+					<COLUMN Filter="COL:2,3,4" Formula="Array(`&lt;div class='widget' id='divB' &gt; &lt;h1 id='hB'&gt;&lt;/h1&gt; &lt;/div&gt;`)" Style="width: 308px;"/>
+					<COLUMN Filter="COL:3,4" Formula="Array(`&lt;div class='widget' id='divE' &gt; &lt;h1 id='hE'&gt;&lt;/h1&gt; &lt;/div&gt;`)" Style="width: 308px" />
+					<COLUMN Filter="COL:4" Formula="Array(`&lt;div class='widget' id='divF' &gt; &lt;h1 id='hF'&gt;&lt;/h1&gt; &lt;/div&gt;`)" Style="width: 308px" />
+				</ROWS>
+		
+				<ROWS>
+				<COLUMN Val="[LABEL:[DEF:Dim]1]" Align="Center"  Colspan="1" Style="width: 308px" Fmt="@"/>
+				<COLUMN Filter="COL:2,3,4" Val="[LABEL:[DEF:Dim]2]" Align="Center" Colspan="1" Style="width: 308px" Fmt="@"/>
+				<COLUMN Filter="COL:3,4" Val="[LABEL:[DEF:Dim]5]" Align="Center" Colspan="1" Style="width: 308px" Fmt="@"/>
+				<COLUMN Filter="COL:4" Val="[LABEL:[DEF:Dim]6]" Align="Center" Colspan="1" Style="width: 308px" Fmt="@"/>
+				</ROWS>
+				
+				<ROWS Filter="ROW:2,3">
+					<COLUMN Formula="Array(`&lt;div class='widget' id='divC' &gt; &lt;h1 id='hC'&gt;&lt;/h1&gt; &lt;/div&gt;`)" Style="width: 308px;height:140px" /> 
+					<COLUMN Filter="COL:2,3,4" Formula="Array(`&lt;div class='widget' id='divD' &gt; &lt;h1 id='hD'&gt;&lt;/h1&gt; &lt;/div&gt;`)" Style="width: 308px"/>
+					<COLUMN Filter="COL:3,4" Formula="Array(`&lt;div class='widget' id='divG' &gt; &lt;h1 id='hG'&gt;&lt;/h1&gt; &lt;/div&gt;`)" Style="width: 308px" />
+					<COLUMN Filter="COL:4" Formula="Array(`&lt;div class='widget' id='divH' &gt; &lt;h1 id='hH'&gt;&lt;/h1&gt; &lt;/div&gt;`)" Style="width: 308px" />
+				</ROWS>
+				
+				<ROWS Filter="ROW:2,3">
+				<COLUMN Val="[LABEL:[DEF:Dim]3]" Align="Center" Colspan="1" Style="width: 308px" Fmt="@"/>
+				<COLUMN Filter="COL:2,3,4" Val="[LABEL:[DEF:Dim]4]" Align="Center" Colspan="1" Style="width: 308px" Fmt="@"/>
+				<COLUMN Filter="COL:3,4" Val="[LABEL:[DEF:Dim]7]" Align="Center" Colspan="1" Style="width: 308px" Fmt="@"/>
+				<COLUMN Filter="COL:4" Val="[LABEL:[DEF:Dim]8]" Align="Center" Colspan="1" Style="width: 308px" Fmt="@"/>
+				</ROWS>
+				
+				<ROWS Filter="ROW:3">
+					<COLUMN Formula="Array(`&lt;div class='widget' id='divI' &gt; &lt;h1 id='hI'&gt;&lt;/h1&gt; &lt;/div&gt;`)" Style="width: 308px;height:140px" /> 
+					<COLUMN Filter="COL:2,3,4" Formula="Array(`&lt;div class='widget' id='divJ' &gt; &lt;h1 id='hJ'&gt;&lt;/h1&gt; &lt;/div&gt;`)" Style="width: 308px"/>
+					<COLUMN Filter="COL:3,4" Formula="Array(`&lt;div class='widget' id='divK' &gt; &lt;h1 id='hK'&gt;&lt;/h1&gt; &lt;/div&gt;`)" Style="width: 308px" />
+					<COLUMN Filter="COL:4" Formula="Array(`&lt;div class='widget' id='divL' &gt; &lt;h1 id='hL'&gt;&lt;/h1&gt; &lt;/div&gt;`)" Style="width: 308px" />
+				</ROWS>
+				
+				<ROWS Filter="ROW:3">
+				<COLUMN Val="[LABEL:[DEF:Dim]9]" Align="Center" Colspan="1" Style="width: 308px" Fmt="@"/>
+				<COLUMN Filter="COL:2,3,4" Val="[LABEL:[DEF:Dim]10]" Align="Center" Colspan="1" Style="width: 308px" Fmt="@"/>
+				<COLUMN Filter="COL:3,4" Val="[LABEL:[DEF:Dim]11]" Align="Center" Colspan="1" Style="width: 308px" Fmt="@"/>
+				<COLUMN Filter="COL:4" Val="[LABEL:[DEF:Dim]12]" Align="Center" Colspan="1" Style="width: 308px" Fmt="@"/>
+				</ROWS>
+				
+				
+			</LAYER>
+			
+		</SECTION>
+	</REPORT>
+		
+		<STARTUPSCRIPT ScriptContent="`Init_all('`&amp;Def(`DashContentId`)&amp;`', '`&amp;Def(`Dim`)&amp;`','`&amp;Def(`Input1`)&amp;`')`"/>
+</PACKAGE>

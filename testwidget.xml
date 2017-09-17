@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<PACKAGE>
+  
+  <INCLUDESCRIPT ScriptFileName="Javascript/testwidget.js" />
+  <LIST id="SIL" Source="StatItems" />
+  <LIST id="S" Source="SiteList" />
+  <LIST id="Sm">
+    <VALUE id="DD" label="Day" />
+    <VALUE id="MTD" label="MTD" />
+    <VALUE id="PD" label="Period" />
+    <VALUE id="QTD" label="QTD" />
+    <VALUE id="QQ" label="Quarter" />
+    <VALUE id="YTD" label="YTD" />
+    <VALUE id="YY" label="Year" />
+    <VALUE id="TM1" label="First Trimester" />
+    <VALUE id="TM2" label="Second Trimester" />
+    <VALUE id="TM3" label="Third Trimester" />
+    <VALUE id="MMT3" label="Trailing 3m" />
+    <VALUE id="MMT6" label="Trailing 6m" />
+    <VALUE id="YYT1" label="Trailing 12m" />
+    <VALUE id="MMF3" label="Forward 3m" />
+    <VALUE id="MMF6" label="Forward 6m" />
+    <VALUE id="YYF1" label="Forward 12m" />
+    <VALUE id="YY2" label="2 Years" />
+    <VALUE id="YY3" label="3 Years" />
+  </LIST>
+  <LIST id="M0" Source="MODESLIST" />
+  <LIST id="M1" Source="MODESLIST" />
+  
+  <TEMPLATE id="menu" Src="Dashboard/toolbox"/>
+	<MENU id="CorpDialog" Type="NotGlobal" Colspan="4">
+		<LAYER>
+		<INSERT id="menu" />
+		</LAYER>
+	</MENU>
+
+  <OptionsButton id="CorpButton" name="CorpDialog" />
+  
+  <REPORT>
+      <HEADER>
+        <LAYER Class="HD1">
+		  <ROWS id="L" Class="HD1">
+            <VAR id="DialogId" Formula="`CorpDialog1`" />
+            <COLUMN Val="[OptionsButton:CorpButton] [Lock] [DEF:ReportName]" Fmt="@" Colspan="2"/>
+          </ROWS>
+          <ROWS>
+            <COLUMN Val="[LABEL:Sm]---[LABEL:S]" Align="Center" Colspan="1"/>
+          </ROWS>
+          <ROWS>
+            <COLUMN Val="[LABEL:M0] vs. [LABEL:M1]" Colspan="1" Align="Center"/>
+          </ROWS>
+		  <ROWS>
+		  <COLUMN Val="[LABEL:SIL]" Colspan="1" Align="Center"/>
+		  </ROWS>
+          </LAYER>
+      </HEADER> 
+	<LAYER>
+	<COLUMN Formula="Array(`&lt;div class='widget'&gt; &lt;h1 id='h'&gt;&lt;/h1&gt; &lt;/div&gt;`)" Style="width: 305px; height:140px"/>
+	</LAYER>
+	
+	<TEMPLATE id="dataset" Src="Dashboard/dataset"/>
+		<LAYER>
+		<INSERT id="dataset"/>
+		</LAYER>
+		
+  </REPORT>
+  <STARTUPSCRIPT ScriptContent="`InitTest('`&amp;Def(`DashContentId`)&amp;`', '`&amp;Def(`VAR:CenterNum`)&amp;`','`&amp;Def(`VAR:CenterNumAmt`)&amp;`','`&amp;Def(`VAR:Comp`)&amp;`','`&amp;`[FIELD1:SIL]`&amp;`','`&amp;Def(`Input1`)&amp;`','`&amp;Def(`Input2`)&amp;`');`" />
+</PACKAGE>
